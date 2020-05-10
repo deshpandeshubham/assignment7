@@ -5,7 +5,7 @@
 const names = ['USPA', 'Adidas', 'Reebok', 'Holister', 'Nike', 'Perfume'];
 const categories = ['shirt', 'jeans', 'sweater', 'jacket', 'accessories'];
 
-const initialCount = db.issues.count();
+const initialCount = db.items.count();
 
 for (let i = 0; i < 100; i += 1) {
   const Name = names[Math.floor(Math.random() * 6)];
